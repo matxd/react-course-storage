@@ -5,7 +5,7 @@ const TemplateExpressions = () => {
   }
 
   return(
-    <> {/* Fragment */}
+    <> {/* Fragments */}
       <p>
         O seu nome é: {userData.name}, profissão: {userData.job}!
         {console.log("Esse log foi emitido através de um Template Expression")}
