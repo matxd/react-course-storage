@@ -1,7 +1,7 @@
-const PropsDestructuring = ({ brand, color, model }) => {
+const PropsDestructuring = ({ brand, color, model, id }) => {
   return(
     <div>
-      <h2>Destructuring em Propriedades</h2>
+      <p><strong>{id !== undefined ? `Carro: ${id}` : ''}</strong></p>
       <ul>
         <li>Marca: {brand}</li>
         <li>Modelo: {model}</li>
