@@ -8,7 +8,7 @@ const ManageData = () => {
     console.log(count)
   }
 
-  return (
+  return(
     <div>
       <p>Valor: {count}</p>
       <button onClick={counter}>Contador</button>

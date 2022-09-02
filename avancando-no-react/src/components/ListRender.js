@@ -17,10 +17,10 @@ const ListRender = () => {
     })
   }
 
-  return (
+  return(
     <div>
       <p>Render List com indice sendo key</p>
-      <ul> {/* Usando o indice do Array como key deve ser evitado, podendo gerar erros */}
+      <ul> {/* Usando o indice do Array como key deve ser evitado, pode gerar erros */}
         {list.map((item, index) => ( <li key={index}> {item} </li> ))}
       </ul>   
 
