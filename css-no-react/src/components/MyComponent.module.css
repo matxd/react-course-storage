@@ -1,0 +1,12 @@
+.my_div_modules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_p_modules {
+  color: brown;
+  background-color: aliceblue;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}

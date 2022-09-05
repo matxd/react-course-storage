@@ -1,0 +1,22 @@
+p {
+  color: aqua;
+  background-color: #666;
+  padding: 5px;
+}
+
+.my-p-style {
+  color: purple;
+  background-color: beige;
+}
+
+.red-p {
+  color: red;
+  background-color: beige;
+  border: 2px solid red;
+}
+
+.blue-p {
+  color: blue;
+  background-color: beige;
+  border: 2px solid blue;
+}
