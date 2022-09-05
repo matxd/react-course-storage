@@ -3,10 +3,13 @@ import './App.css';
 
 import ImgAssets from './assets/img-assets.jpg'
 import ConditionalRender from './components/ConditionalRender';
+import Container from './components/Container';
+import ExecuteFunction from './components/ExecuteFunction';
 import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 import Props from './components/Props';
 import PropsDestructuring from './components/PropsDestructuring';
+import UserDetails from './components/UserDetails';
 
 function App() {
   const nameConst = "Fulano"
@@ -18,6 +21,10 @@ function App() {
     {id: 3, brand: "Nissan", color: "Prata", model: "GTR-R"},
     {id: 4, brand: "VW", color: "Vermelho", model: "Golf GTI"},
   ]
+
+  function showMessage(){
+    console.log("Função do componente pai sendo executada no componente filho!")
+  }
 
   return (
     <div className="App">
@@ -34,6 +41,11 @@ function App() {
       {carsList.map((car) => (
       <PropsDestructuring brand={car.brand} color={car.color} model={car.model} id={car.id} key={car.id}/>
       ))}
+      <Container>
+        <p>Este é o conteudo do container</p>
+      </Container>
+      <ExecuteFunction myFunction={showMessage} />
+      <UserDetails />
     </div>
   );
 }
