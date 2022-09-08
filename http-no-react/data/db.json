@@ -16,9 +16,14 @@
       "price": 29.9
     },
     {
-      "name": "teste",
-      "price": "77",
+      "name": "Teclado",
+      "price": "50",
       "id": 4
+    },
+    {
+      "name": "Teclado",
+      "price": "50",
+      "id": 5
     }
   ]
 }
