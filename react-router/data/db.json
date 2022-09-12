@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Cadeira",
+      "price": "233",
+      "id": 1
+    },    
+    {
+      "name": "Teclado",
+      "price": "150",
+      "id": 2
+    },    
+    {
+      "name": "Monitor",
+      "price": "1000",
+      "id": 3
+    }
+  ]
+}
