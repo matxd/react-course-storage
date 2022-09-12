@@ -1,34 +1,14 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Camisa",
-      "price": 59.9
-    },
-    {
-      "id": 2,
-      "name": "Calça vermelha",
-      "price": 90
-    },
-    {
-      "id": 3,
-      "name": "Boné aba reta",
-      "price": 29.9
-    },
-    {
-      "name": "Teste Product",
-      "price": "999.99",
-      "id": 4
+      "name": "Teclado",
+      "price": "220",
+      "id": 1
     },
     {
       "name": "Mouse",
-      "price": "50",
-      "id": 5
-    },
-    {
-      "name": "teclado",
-      "price": "120",
-      "id": 6
+      "price": "100",
+      "id": 2
     }
   ]
 }
