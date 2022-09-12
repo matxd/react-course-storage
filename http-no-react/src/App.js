@@ -45,6 +45,8 @@ function App() {
   //   fetchData()
   // }, [])
 
+  const handleDeleteProduct = (id) => httpConfig(id, "DELETE")
+  
   return (
     <div className="App">
       <h1>Seção 07 - HTTP</h1>
@@ -53,7 +55,9 @@ function App() {
       {!error && (
         <ul>
           {items && items.map((product) => (
-            <li key={product.id}>{product.name} - R$ {product.price}</li>
+            <li key={product.id}>{product.name} - R$ {product.price} <button 
+              onClick={() => handleDeleteProduct(product.id)}>Remover</button>
+            </li>
           ))}
         </ul>
       )}
