@@ -6,4 +6,4 @@
 - <a href="https://github.com/matxd/react-course-storage/tree/main/forms-no-react">Formularios em React</a>
 - <a href="https://github.com/matxd/react-course-storage/tree/main/projeto-01-secret-word">Projeto 01 - Secret Word</a>
 - <a href="https://github.com/matxd/react-course-storage/tree/main/http-no-react">HTTP em React</a>
-- <a href="https://github.com/matxd/react-course-storage/tree/main/react-router">React Router<a/>
+- <a href="https://github.com/matxd/react-course-storage/tree/main/react-router">React Router</a>
