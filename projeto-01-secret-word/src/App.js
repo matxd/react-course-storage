@@ -16,7 +16,6 @@ const stages = [
 
 function App() {
   const [gameStage, setGameStage] = useState(stages[0].name)
-  console.log(gameStage)
   const [words] = useState(wordsList)
 
   const [pickedWord, setPickedWord] = useState("")
