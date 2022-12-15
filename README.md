@@ -8,3 +8,4 @@
 - <a href="https://github.com/matxd/react-course-storage/tree/main/http-no-react">HTTP em React</a>
 - <a href="https://github.com/matxd/react-course-storage/tree/main/react-router">React Router</a>
 - <a href="https://github.com/matxd/react-course-storage/tree/main/context-api">Context API</a>
+- <a href="https://github.com/matxd/react-course-storage/tree/main/react-redux">React Redux</a>
